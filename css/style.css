@@ -20,8 +20,14 @@ body {
   opacity: 0.9;
   background-position: center;
   background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-repeat: no-repeat;
-
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 0;
   /*
     fixed = parallax
     scroll = normal
